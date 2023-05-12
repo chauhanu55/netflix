@@ -9,8 +9,8 @@ function Navbar() {
   return (
     <>
       <header className={isdark ? "dark" : ""}>
-        <div className="logo"><img src='netflix.PNG'></img></div>
-        <div className="emoji"><img src='emoji.PNG'></img></div>
+        <div className="logo"><img src='netflix.png'></img></div>
+        <div className="emoji"><img src='emoji.png'></img></div>
       </header>
 
     </>
