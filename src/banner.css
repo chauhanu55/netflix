@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.banner-container {
+    width: 40vw;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.banner .container a {
+    background-color: rgba(0,0,0,.8);
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.banner .container p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
